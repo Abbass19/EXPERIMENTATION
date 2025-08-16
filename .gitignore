@@ -9,3 +9,6 @@ __pycache__/
 *.npy
 *.csv
 *.pkl
+
+#Virtual Environment
+venv/
