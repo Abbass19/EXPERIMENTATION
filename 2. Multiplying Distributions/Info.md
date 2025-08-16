@@ -1,0 +1,11 @@
+EXPERIMENTATION: 2D Distribution Visualization and Interactive Exploration
+
+In this experiment, we explore the behavior of two-dimensional distributions generated from independent normal variables. Inspired by earlier work in anomaly detection and probability, the goal is to gain intuition about how the parameters of each variable—the mean and standard deviation—affect the shape and height of the resulting 2D surface. By visualizing these distributions, we can better understand the interaction between independent variables and the formation of a joint probability surface.
+
+The central question driving this experiment is simple yet powerful: how do changes in the mean and standard deviation of each variable influence the combined distribution? To investigate this, we generate two independent normal distributions and compute a 2D surface based on the product of their probability densities. This allows us to see the peaks, spreads, and overall shape of the joint distribution in a clear, visual manner.
+
+To make the exploration interactive, we employ sliders that allow real-time adjustments of the mean and standard deviation for both variables. This approach not only makes it easier to experiment with different parameter settings but also provides an immediate visual intuition for how these changes propagate in the joint distribution. Watching the 2D surface adapt as the sliders move helps solidify the understanding of multivariate probability concepts and the independence of variables.
+
+This experiment emphasizes the value of interactive visualization in learning. Instead of passively observing static plots, the user can manipulate the parameters and directly observe their effect on the distribution. Such hands-on exploration is especially useful for developing intuition about probability densities and for appreciating the sensitivity of joint distributions to parameter changes.
+
+The next step involves adding visualizations of the 1D distributions alongside the resulting 3D surface. Each figure will include annotations and captions that explain how variations in the means and standard deviations influence the overall shape, providing a comprehensive narrative of the experiment.
